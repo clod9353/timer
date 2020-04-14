@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Timer</title>
+        <link rel="stylesheet" href="./style.css">
+    </head>
+    <body>
+        <h1 id="clock"></h1>
+
+        <h1></h1>
+        <label>Prepare: </label><p  class="line prep" id="prepare">00:10</p>
+        <button class="prep" id="prep-minus-btn">-</button>
+        <button class="prep" id="prep-plus-btn">+</button><br>
+        <label>Work: </label><p class="line wrk" id="work">00:20</p>
+        <button class="wrk" id="work-minus-btn">-</button>
+        <button class="wrk" id="work-plus-btn">+</button><br>
+        <label>Rest: </label><p class="line rst" id="rest">00:10</p>
+        <button class="rst" id="rest-minus-btn">-</button>
+        <button class="rst" id="rest-plus-btn">+</button><br> 
+        <label>Cycles: </label><p class="line cyc" id="cycles">01</p>
+        <button class="cyc" id="cycles-minus-btn">-</button>
+        <button class="cyc" id="cycles-plus-btn">+</button><br>        
+        <label>RestCY: </label><p class="line rst-cyc" id="rest-cy">00:10</p>
+        <button class="rst-cyc" id="restcy-minus-btn">-</button>
+        <button class="rst-cyc" id="restcy-plus-btn">+</button><br> 
+        
+        <button id="signal">start</button>
+        <div>
+            <p>Timer:</p>
+            <p id="liveTimer"></p>
+        </div>
+
+        <script type="text/javascript" src="./script.js"></script>
+    </body>
+</html>
